@@ -1,0 +1,38 @@
+body {
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 20%;
+}
+
+.nav-mogott {
+	height: 56px;
+}
+.navbar-dark .container .navbar-collapse .navbar-nav .nav-item .nav-link, 
+.navbar-dark .container .navbar-brand {
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: all 0.3s ease 0s; /*áttünés: tulajdonság, idő, sebesség, késleltetés*/
+}
+.navbar-dark .container .navbar-collapse .navbar-nav .nav-item .nav-link:hover, 
+.navbar-dark .container .navbar-brand:hover {
+	letter-spacing: 3px;
+}
+.udvozlo-doboz {
+	background-color: rgba(0,0,0,0.8);
+	margin-top: calc((100vh - 56px - 319px) / 2);
+}
+.form-inline label {
+	justify-content: flex-start;
+}
+textarea {
+	resize: none; /*a szövegdoboz ne lehessen újra méretezhető*/
+}
+iframe {
+	height: 360px;
+}
+
+
+
+
